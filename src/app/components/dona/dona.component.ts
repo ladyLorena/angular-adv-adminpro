@@ -15,8 +15,8 @@ export class DonaComponent  {
   @Input('data') doughnutChartData: MultiDataSet = [
     [350, 450, 100],
   ];
-public colors: Color [] = [
-  {backgroundColor: ['#FFFD82','#55DDFF','#B5B9FF']}
+  public colors: Color[] = [
+  { backgroundColor: [ '#FFFD82','#55DDFF','#B5B9FF' ] }
 ];
 
 }

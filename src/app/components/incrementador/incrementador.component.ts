@@ -8,6 +8,7 @@ import { Component, EventEmitter, Input, Output,OnInit } from '@angular/core';
   ]
 })
 export class IncrementadorComponent implements OnInit{
+  
   ngOnInit() {
     this.btnClass = `btn ${ this.btnClass}`;
   }

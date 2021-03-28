@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 
-
 @Component({
   selector: 'app-grafica1',
   templateUrl: './grafica1.component.html',
@@ -13,6 +12,5 @@ export class Grafica1Component  {
   public data1 = [
     [20, 30, 80],
   ];
-
-   
+  
 }

@@ -12,17 +12,16 @@ const routes: Routes = [
   // path: '/dashboar' pagesRouting
   //path: '/auth' AuthRouting
   
-  {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
-  {path: '**', component: NopagefoundComponent}
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '**', component: NopagefoundComponent },
 ];
 
 @NgModule({
-  declarations: [],
   imports: [
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot( routes ),
     PagesRoutingModule,
     AuthRoutingModule
   ],
-  exports: [RouterModule]
+  exports: [ RouterModule ]
 })
 export class AppRoutingModule { }
